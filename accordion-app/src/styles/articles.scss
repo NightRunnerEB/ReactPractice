@@ -1,0 +1,15 @@
+.article-accordion {
+    margin-bottom: 8px;
+    border: 1px solid transparent;
+  
+    &:hover {
+      border-color: red;
+    }
+  
+    .MuiAccordionSummary-root::first-letter {
+      color: red;
+      font-size: 1.3em;
+      margin-right: 1px;
+    }
+  }
+  
