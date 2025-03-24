@@ -1,0 +1,9 @@
+.task-item {
+    transition: opacity 0.2s ease;
+  }
+  
+  .task-item.completed span {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
